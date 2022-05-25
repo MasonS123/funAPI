@@ -34,7 +34,7 @@
 					<br/>
 					<p> ENTER YOUR LONGITUDE AND LATITUDE</p>
 					
-					<form action="elevation.php">
+					<form action="HowHighAmI.php">
 				  <label for="Longitude">Longitude:</label>
 				  <input type="text" id="lon" name="Longitude"><br><br>
 				  <label for="Latitude">Latitude:</label>
