@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head><title>How high are you?</title></head>
+  <body>
+    <div id="demo"></div>
+  
+    
+     <h1> How high are you?</h1>
+    <br/>
+    <p> ENTER YOUR LONGITUDE AND LATITUDE</p>
+    
+	<form action="elevation.php">
+  <label for="Longitude">Longitude:</label>
+  <input type="text" id="lon" name="Longitude"><br><br>
+  <label for="Latitude">Latitude:</label>
+  <input type="text" id="lan" name="Latitude"><br><br>
+  <input type="submit" value="Submit">
+	</form>
+	
+
+	
+    
+    
+    <form id="reset-form" action="#" onsubmit="resetGame(); return false">
+      <button type="submit" id="reset">Reset Game</button>
+    </form>
+    
+    <div id="feedback"></div>
+  </body>
+</html>
